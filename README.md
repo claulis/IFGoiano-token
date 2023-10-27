@@ -45,15 +45,18 @@ Os contratos inteligentes são executados na blockchain, o que implica que os te
 ## Quais tecnologias devo usar para desenvolver um meu token?
 Para criar um token ERC-20, você precisará das seguintes tecnologias:
 
-1. **Solidity**: Solidity é a linguagem de programação usada para escrever contratos inteligentes na blockchain Ethereum.
+1. **Solidity**: [Solidity](https://soliditylang.org/). é a linguagem de programação usada para escrever contratos inteligentes na blockchain Ethereum.
 
-2. **Remix**: Remix é uma ferramenta online que permite escrever, testar e implantar contratos inteligentes escritos em Solidity.
+2. **Remix**: [Remix](https://remix.ethereum.org/) é uma ferramenta online que permite escrever, testar e implantar contratos inteligentes escritos em Solidity.
 
-3. **Metamask**: Metamask é uma carteira de criptomoedas que permite interagir com a blockchain Ethereum.
+3. **Metamask**: [Metamask](https://metamask.io/) é uma carteira de criptomoedas que permite interagir com a blockchain Ethereum.
+  
+4. **Truffle ou HardHat**: [Truffle](https://trufflesuite.com/truffle/) e [HardHat](https://hardhat.org/) São frameworks de desenvolvimento que facilitam a criação, compilação, implantação e teste de contratos inteligentes.
 
-4. **Infura**: Infura é um serviço que fornece uma API Ethereum, permitindo que você interaja com a blockchain Ethereum sem ter que executar um nó completo.
-   
-5. **Truffle ou HardHat**: São frameworks de desenvolvimento que facilitam a criação, compilação, implantação e teste de contratos inteligentes.
+Vamos ver o passo a passo para criar e testar um token...
+
+## Quais são os passos para criar e testar um toke?
+Neste caso baixe o arquivo 
 
 
 
