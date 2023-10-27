@@ -164,6 +164,15 @@ contract IFGoianoCoin
 }
 ```
 
+## Remix
+Abra o Remix e faça upload clicando no icone evidenciado na imagem
+
+![remix1](https://github.com/claulis/IFGoiano-token/assets/5414440/83252bc5-65c5-42f1-a15c-a4f28f9f4c2a)
+
+Agora o contrato vai 
+
+
+
 
 
 
