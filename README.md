@@ -169,8 +169,21 @@ Abra o Remix e faça upload clicando no icone evidenciado na imagem
 
 ![remix1](https://github.com/claulis/IFGoiano-token/assets/5414440/83252bc5-65c5-42f1-a15c-a4f28f9f4c2a)
 
-Agora o contrato vai 
+Agora o contrato vai aparecer no final na pasta contracts
 
+![remix2](https://github.com/claulis/IFGoiano-token/assets/5414440/2ebf456a-501f-4941-984d-95a13960a1b9)
+
+### Compilar IFGoiano-Crypto.sol
+Um Smart Contract em Solidity precisa ser compilado, assim como muitas outras linguagens de programação.
+
+Na imagem estão evidenciados onde compilar o arquivo
+![remix3](https://github.com/claulis/IFGoiano-token/assets/5414440/90b6ef8c-26ce-4ec6-969a-48aab525f9d1)
+
+No código à direita podemos ver `pragma solidity 0.8.18;` que é uma diretiva que especifica a versão do compilador a ser usada para a compilação do código do contrato inteligente escrito em Solidity. Pragma é geralmente a primeira linha de código em qualquer arquivo Solidity
+
+Se o contrato compilou sem erros vai comparece um selo verde que indica que tudo deu certo
+
+![remix4](https://github.com/claulis/IFGoiano-token/assets/5414440/98022320-b753-4ed0-9809-f19c3be3539c)
 
 
 
