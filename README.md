@@ -56,7 +56,17 @@ Para criar um token ERC-20, você precisará das seguintes tecnologias:
 Vamos ver o passo a passo para criar e testar um token...
 
 ## Quais são os passos para criar e testar um toke?
-Neste caso baixe o arquivo 
+
+1. Neste caso baixe o arquivo [IFGoiano-Crypto.sol](https://github.com/claulis/IFGoiano-token/blob/main/IFGoiano-Crypto.sol). Este arquivo é um Smart Contract desenvolvido com Solidity
+2. Acesse o Remix
+3. Importe o arquivo no Remix
+4. Compile
+5. Faça deploi em um ambiente de teste
+6. Teste as Funções
+
+## IFGoiano-Crypto.sol
+
+```Solidity
 
 
 
