@@ -181,9 +181,64 @@ Na imagem estão evidenciados onde compilar o arquivo
 
 No código à direita podemos ver `pragma solidity 0.8.18;` que é uma diretiva que especifica a versão do compilador a ser usada para a compilação do código do contrato inteligente escrito em Solidity. Pragma é geralmente a primeira linha de código em qualquer arquivo Solidity
 
-Se o contrato compilou sem erros vai comparece um selo verde que indica que tudo deu certo
+Se o contrato compilou sem erros vai comparecer um selo verde que indica que tudo deu certo
 
 ![remix4](https://github.com/claulis/IFGoiano-token/assets/5414440/98022320-b753-4ed0-9809-f19c3be3539c)
+
+### Deploy and Run
+Para publicar o contrato compilado vamos escolher um ambiente de teste, um sandbox, que é onde iremos testar todas as funções sem problema algum.
+
+Esta é a interface do deploy e vamos ver item por item, para entender melhor.
+![remix5](https://github.com/claulis/IFGoiano-token/assets/5414440/94816890-4a64-4592-8115-b5d58d694d08)
+
+#### Enviroment
+É o ambiente onde iremos publicar o contrato
+Na imagem tem uma lista com os vários ambientes disponíveis. A lista contem as Virtual Machines(VM) que servem para rodar o contrato compilado.
+![remix6](https://github.com/claulis/IFGoiano-token/assets/5414440/c4e0b051-58b8-48c7-bcef-d9ad3fb3213d)
+
+Nesse [link](https://remix-ide.readthedocs.io/en/latest/run.html#environment) tem uma documentação sobre os vários ambientes.
+Cada um tem uma atualização, uma caraterística diferente. No nosso caso iremos usar o `Remix VM (London)`.
+
+Agora vamos ver o `account`
+
+#### Account
+Um account no Ethereum é uma entidade com um saldo em ether (ETH) que pode enviar transações na rede Ethereum. Os accounts podem ser controlados por usuários ou implantados como contratos inteligentes. Existem dois tipos de accounts no Ethereum:
+
+- Account externamente controlado (EOA) - controlado por qualquer pessoa que tenha as chaves privadas. Pode iniciar transações e transferir ETH e tokens.
+- Account de contrato - um contrato inteligente implantado na rede, controlado pelo código. Pode enviar transações em resposta a receber uma transação e executar muitas ações diferentes, como transferir tokens ou criar um novo contrato.
+Os accounts no Ethereum têm quatro campos: nonce, balance, codeHash e storageRoot. Esses campos armazenam informações sobre o número de transações enviadas ou contratos criados pelo account, o saldo em wei, o código do account na máquina virtual Ethereum (EVM) e o hash do conteúdo de armazenamento do account.
+
+Nesse caso a lista de contas associadas ao ambiente atual (e seus respectivos saldos). No Remix VM, você tem a escolha de 5 contas. 
+![remix7](https://github.com/claulis/IFGoiano-token/assets/5414440/6611a6b1-c640-45e1-855f-5967bee87c1d)
+
+A imagem apresenta as contas associadas ao ambiente London. Você pode escolher entre estas contas destinatario e remetente dos tokens.
+
+#### Gas limit
+**Neste exemplo não iremos modificar o gas limit** porém vale a pena saber o que é.
+
+O gas limit é o custo máximo que um usuário do Ethereum paga para enviar uma transação pela rede. O limite definido depende da complexidade da atividade que você quer executar na blockchain ou da velocidade que você quer que a transação seja realizada. O limite de gás serve como um mecanismo de proteção para evitar que as transações consumam muito gás (e consequentemente ETH).
+Por exemplo, uma transação simples de enviar ETH de um lugar para outro custa 21.000 unidades de gás, enquanto enviar tokens de uma ICO da sua carteira MyEtherWallet (MEW) custa muito mais devido ao maior nível de computação envolvido.
+Você pode definir a quantidade de gás que está disposto a pagar quando envia uma transação. Ao oferecer uma certa quantidade de gás, você está fazendo uma oferta para que sua transação seja incluída no próximo bloco. Se você oferecer muito pouco, os validadores são menos propensos a escolher sua transação para inclusão, o que significa que sua transação pode ser executada tarde ou nunca. Se você oferecer muito, você pode desperdiçar algum ETH.
+
+#### Value
+**Neste exemplo o value não será alterado**, mas vamos entender bem o que é.
+
+A quantidade de ether (ETH) que é enviada ou recebida em uma transação na rede Ethereum. Cada transação tem um campo chamado value, que especifica a quantidade de ETH que o remetente quer transferir para o destinatário.
+
+#### O deploy
+
+Veja nos Contracts o contrato que você compilou, certifique-se que é o contrato certo e clique no botão Deploy
+![remix8](https://github.com/claulis/IFGoiano-token/assets/5414440/d94abdf7-8c66-4855-819a-11206349fb32)
+
+Caso o deploy deu certo
+
+![remix9](https://github.com/claulis/IFGoiano-token/assets/5414440/9fc64e11-13ec-4627-8e94-540741b6dc7e)
+
+Repare que o primeiro account que foi utilizado para o deploy, não terá mais 100TEH, mas diminuiu. 
+> Para fazer o deploy deste contrato houve um gasto computacional(energia, equipamento) e tudo isso representato pelo Ether. Cada ação tem um custo, por menor que seja.
+
+
+
 
 
 
