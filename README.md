@@ -75,8 +75,7 @@ contract IFGoianoCoin
    //ERC-20: numero total de toknes disponível no mercado
    //Para criar 10.000 tokens “inteiros”, 
    //mas que cada um possa ser dividido com 18 casas decimais, 
-   //preciso elevar 10k à potência de 18, 
-   //o que estou fazendo ali na primeira linha usando o operador ** (potência) do Solidity.
+   //preciso elevar 10k à potência de 18, usando o operador ** (potência) do Solidity.
    uint private _totalSupply = 10000 * 10 ** 18;
    string private _name = "IFGoiano-Coin";
    string private _symbol = "IFGoianoCoin";
@@ -84,8 +83,8 @@ contract IFGoianoCoin
    uint private _decimals = 18;
 
    mapping(address => uint) private _balances;
-   //ERC-20: o construtor será invocado apenas uma svez no deploy
-   //a invocação fará circular a moeda ou token
+   //ERC-20: o construtor será invocado apenas uma vez no deploy
+   //a invocação fará circular a moeda ou token na rede de teste
    constructor(){
     //msg é o estado global que representa a transação do disparou o deploy retornando as informações
     //.sender é o endereço da carteira que está fazendo a transação msg
