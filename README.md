@@ -1,5 +1,5 @@
 # IFGoiano Token
-Material didático sobre blockchain para projeto de pesquisa de blockchain na educação para o IF Goiano
+Este projeto visa desenvolver um token para fins didáticos, criando uma proposta de token em ambiente de teste.
 
 ## O que é uma blockchain?
 É uma cadeia de blocos de dados interligados, organizados em ordem cronológica e protegidos por provas criptográficas. É uma base de dados distribuída peer-to-peer que tem regras rigorosas para a adição de dados. A blockchain é a base do funcionamento das criptomoedas, sendo o fio condutor para a segurança nas transações digitais das moedas.
