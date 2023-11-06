@@ -237,6 +237,18 @@ Repare que o primeiro account que foi utilizado para o deploy, não terá mais 1
 > Para fazer o deploy deste contrato houve um gasto computacional(energia, equipamento) e tudo isso representato pelo Ether. Cada ação tem um custo, por menor que seja.
 
 
+## ReferÊncias bibliográficas
+
+BAUER, Davi Pedro. ERC-20: Fungible Tokens. In: Getting Started with Ethereum: A Step-by-Step Guide to Becoming a Blockchain Developer. Berkeley, CA: Apress, 2022. p. 17-48.
+CUFFE, Paul. The role of the erc-20 token standard in a financial revolution: the case of initial coin offerings. 2018.
+DI PIERRO, Massimo. What is the blockchain?. Computing in Science & Engineering, v. 19, n. 5, p. 92-95, 2017.
+ETHEREUM FOUNDATION. Documentação para desenvolvedores. Ethereum, 2023. Disponível em: https://ethereum.org/en/developers/docs/. Acesso em: 06 nov. 2023.
+GUPTA, Sourav Sen. Blockchain. IBM Online, 2017. Disponível em: http://www.IBM.COM. Acesso em: 06 nov. 2023.
+NOFER, Michael et al. Blockchain. Business & Information Systems Engineering, v. 59, p. 183-187, 2017.
+TAPSCOTT, Don; TAPSCOTT, Alex. Blockchain revolution. Senai-SP Editora, 2018.
+
+
+
 
 
 
