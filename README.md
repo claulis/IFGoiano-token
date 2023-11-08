@@ -1,4 +1,11 @@
 # IFGoiano Token
+
+[![Solidity 0.8.18](https://img.shields.io/badge/Solidity-0.8.18-363636.svg)](https://soliditylang.org/) [![Remix IDE](https://img.shields.io/badge/Remix%20IDE-Desenvolvimento%20Web%20-%232669B3.svg)](https://remix.ethereum.org/) [![Ethereum](https://img.shields.io/badge/Ethereum-Blockchain-3C3C3D.svg)](https://ethereum.org/) [![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-Blockchain-3C3C3D.svg)](https://en.wikipedia.org/wiki/Smart_contract)
+
+
+
+
+
 Este projeto visa desenvolver um token para fins didáticos, criando uma proposta de token em ambiente de teste. O token desenvolvido poderia ser utilizado para incentivar e motivar alunos ao estudo gamificando atividades ou a própria dinâmica cotidiada de convivio na instituição, usando esse token como moeda de troca. 
 
 ## O que é uma blockchain?
