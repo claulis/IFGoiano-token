@@ -6,7 +6,7 @@
 
 # Introdução
 
-Este projeto visa desenvolver um token em linguagem Solidity da plataforma Ethereum para fins didáticos, criando uma proposta de token em ambiente de teste. O token desenvolvido poderia ser utilizado para incentivar e motivar alunos ao estudo gamificando atividades ou a própria dinâmica cotidiada de convivio na instituição, usando esse token como moeda de troca. 
+Este projeto visa desenvolver um token em linguagem Solidity da plataforma Ethereum para fins didáticos, criando uma proposta de token em ambiente de teste. O token desenvolvido poderia ser utilizado para incentivar e motivar alunos ao estudo gamificando atividades ou a própria dinâmica cotidiana de convívio na instituição, usando esse token como moeda de troca. 
 
 # Objetivo Geral do Projeto
 
@@ -21,7 +21,7 @@ Este projeto visa desenvolver um token em linguagem Solidity da plataforma Ether
 # Blockchain e Criptomoeda
 
 É uma cadeia de blocos de dados interligados, organizados em ordem cronológica e protegidos por provas criptográficas. É uma base de dados distribuída peer-to-peer que tem regras rigorosas para a adição de dados. A blockchain é a base do funcionamento das criptomoedas, sendo o fio condutor para a segurança nas transações digitais das moedas.
-Uma cpriptomoeda é um ativo digital independente de contextos governamentais e com sua própria blockchain. As criptomoedas são versões digitais do dinheiro e têm suas próprias blockchains, que são registros compartilhados e imutáveis onde as transações são registradas. Exemplos de criptomoedas incluem Bitcoin, Litecoin e Ether.
+Uma criptomoeda é um ativo digital independente de contextos governamentais e com sua própria blockchain. As criptomoedas são versões digitais do dinheiro e têm suas próprias blockchains, que são registros compartilhados e imutáveis onde as transações são registradas. Exemplos de criptomoedas incluem Bitcoin, Litecoin e Ether.
 
 ## O que é um token?
 Um token é construído dentro de uma blockchain pré-existente. Os tokens são uma “subclasse” de criptomoedas construídas “dentro” de blockchains já existentes. Eles representam títulos ou ativos reais e não possuem uma rede própria, mas se valem das redes de outras criptomoedas já existentes.
