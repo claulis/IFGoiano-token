@@ -14,7 +14,7 @@ Este projeto visa desenvolver um token em linguagem Solidity da plataforma Ether
 
 ## Objetivos Específicos
 
-- Estuda plataforma Ethereum e suas oportunidades
+- Estudar a plataforma Ethereum e suas oportunidades
 - Desenvolver um exemplo de Token
 - Testar e verificar o token criado
   
